@@ -10,7 +10,7 @@ body {
 }
 .login-section {
   width: 588px;
-  height: 607px;
+  height: min-content;
   padding: 26px 82px 57px 82px;
   border: 1px solid #000;
   border-radius: 16px;
@@ -39,3 +39,15 @@ body {
   width: 424px;
 }
 
+@media  (max-width: 600px) {
+.login-section {
+    width: 400px;
+    border: 0px;
+}
+  .login-form{
+    width:300px;
+  }
+  .header {
+    min-width:200px;
+  }
+}
