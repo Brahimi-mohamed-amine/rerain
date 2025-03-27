@@ -18,17 +18,21 @@ body {
 
 .btn-login,
 .btn-sign--up {
+  font: inherit;
   border: 1px solid #000;
   width: 158px;
   height: 54px;
 }
 
 .btn-login {
-  background-color: white;
+  background-color: black;
+  color: white;
 }
 .btn-sign--up,
 .btn-login--big{
-  background-color: #000000;
+  background-color: white;
+}
+.btn-login--big {
   color: white;
 }
 .checkbox-round {

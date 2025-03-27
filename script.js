@@ -6,10 +6,10 @@ signUp.addEventListener('click', (e) => {
   document.querySelector('.btn-login--big').textContent = 'Register'
 
   // Switching colors
-  e.target.style.backgroundColor = 'white';
-  e.target.style.color = 'black';
-  document.querySelector('.btn-login').style.backgroundColor = 'black'
-  document.querySelector('.btn-login').style.color = 'white'
+  e.target.style.backgroundColor = 'black';
+  e.target.style.color = 'white';
+  document.querySelector('.btn-login').style.backgroundColor = 'white'
+  document.querySelector('.btn-login').style.color = 'black'
 
   // removing login inputs
   const elements = document.querySelectorAll('.login-input')
@@ -31,10 +31,10 @@ login.addEventListener('click', (e) => {
   document.querySelector('.btn-login--big').textContent = 'Login'
 
   // Switching colors
-  e.target.style.backgroundColor = 'white';
-  e.target.style.color = 'black';
-  document.querySelector('.btn-sign--up').style.backgroundColor = 'black'
-  document.querySelector('.btn-sign--up').style.color = 'white'
+  e.target.style.backgroundColor = 'black';
+  e.target.style.color = 'white';
+  document.querySelector('.btn-sign--up').style.backgroundColor = 'white'
+  document.querySelector('.btn-sign--up').style.color = 'black'
 
   // remove sign up inputs
   const elements = document.querySelectorAll('.sign-up')
